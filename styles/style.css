@@ -52,6 +52,9 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
+    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 
 }
@@ -59,6 +62,8 @@ nav a{
     padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 .profile-pic{
@@ -67,6 +72,25 @@ nav a{
 
 .banner-greeting{
     color: #474747;
-    
-    
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.banner-name{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.banner-content{
+    max-width: 500px;
 }
