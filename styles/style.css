@@ -183,4 +183,28 @@ font-weight: 700;
 
 .resume-container{
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.resume-item-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+
+.resume-item-institute{
+    color:  #757575;
+font-size: 20px;
+font-weight: 600;
+}
+
+.resume-item-description{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+}
+
+.button-align{
+    text-align: center;
 }
